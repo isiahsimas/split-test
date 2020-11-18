@@ -2,3 +2,4 @@
 
 An engine for splitting the traffic between sites.
 
+# ![Analytics Screenshot](AnalyticsScreenshot.png "Google Analytics Tracking Page Views")
