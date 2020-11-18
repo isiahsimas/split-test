@@ -4,27 +4,28 @@ Survey
     .applyTheme("default");
 
 var json = {
-    title: "American History",
+    title: "Employment Screening",
     pages: [
         {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "civilwar",
-                    title: "When was the Civil War?",
+                    name: "canadian",
+                    title: "Are you a Canadian citizen?",
                     choices: [
-                        "1750-1800", "1800-1850", "1850-1900", "1900-1950", "after 1950"
+                        "Yes", "No"
                     ],
-                    correctAnswer: "1850-1900"
+                    correctAnswer: "Yes"
                 },
                 {
                     type: "radiogroup",
-                    name: "civilwar",
-                    title: "When was the Civil War?",
+                    name: "plutonium",
+                    title: "Do you have, at minimum (11+ years) - graduate research experience in the field of plutonium stabilization?",
+                    choicesOrder: "random",
                     choices: [
-                        "1750-1800", "1800-1850", "1850-1900", "1900-1950", "after 1950"
+                        "Yes", "No"
                     ],
-                    correctAnswer: "1850-1900"
+                    correctAnswer: "Yes"
                 }
             ]
         }, 
@@ -32,23 +33,22 @@ var json = {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "libertyordeath",
-                    title: "Who said 'Give me liberty or give me death?'",
+                    name: "resume",
+                    title: "Do you tailor your resume for automated resume scanners?",
                     choicesOrder: "random",
                     choices: [
-                        "John Hancock", "James Madison", "Patrick Henry", "Samuel Adams"
+                        "Yes", "No"
                     ],
-                    correctAnswer: "Patrick Henry"
+                    correctAnswer: "Yes"
                 },
                 {
                     type: "radiogroup",
-                    name: "libertyordeath",
-                    title: "Who said 'Give me liberty or give me death?'",
-                    choicesOrder: "random",
+                    name: "programming",
+                    title: "Do you have programming experience in Scala, Fortran, BASIC, C++, C#, JavaScript and ArnoldC?", 
                     choices: [
-                        "John Hancock", "James Madison", "Patrick Henry", "Samuel Adams"
+                        "Yes", "No"
                     ],
-                    correctAnswer: "Patrick Henry"
+                    correctAnswer: "Yes"
                 }
             ]
         }, 
@@ -56,23 +56,23 @@ var json = {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
+                    name: "sql",
+                    title: "Do you 5+ years experience creating multiplication tables in SQL?",
                     choicesOrder: "random",
                     choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
+                        "Yes", "No"
                     ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                    correctAnswer: "Yes"
                 },
                 {
                     type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
+                    name: "managing",
+                    title: "Do you have experience managing a team between 5 to 10 people?",
                     choicesOrder: "random",
                     choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
+                        "Yes", "No"
                     ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                    correctAnswer: "Yes"
                 }
             ]
         },
@@ -80,23 +80,22 @@ var json = {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
-                    choicesOrder: "random",
+                    name: "prize",
+                    title: "Have you ever won a Pulitzer Prize?",
                     choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
+                        "Yes", "No"
                     ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                    correctAnswer: "No"
                 },
                 {
                     type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
+                    name: "soldered",
+                    title: "Have you ever soldered electronic components on a breadboard?",
                     choicesOrder: "random",
                     choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
+                        "Yes", "No"
                     ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                    correctAnswer: "Yes"
                 }
             ]
         },
@@ -104,23 +103,23 @@ var json = {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
+                    name: "seo",
+                    title: "Do you have the ability to improve the SEO of a website, and bring it to the top of the search results through Google?",
                     choicesOrder: "random",
                     choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
+                        "Yes", "No"
                     ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                    correctAnswer: "Yes"
                 },
                 {
                     type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
+                    name: "agreeable",
+                    title: "Did you look at the JavaScript file to help you select all the correct answers?",
                     choicesOrder: "random",
                     choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
+                        "Yes", "No"
                     ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                    correctAnswer: "No"
                 }
             ]
         }
